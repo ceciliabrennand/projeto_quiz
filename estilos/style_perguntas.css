@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root{
+    --cor1: #606c38;
+    --cor2: #283618;
+    --cor3: #fefae0;
+    --cor4: #dda15e;
+    --cor5: #bc6c25;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans', Arial, Helvetica, sans-serif;
+    background-color: var(--cor4);
+}
+
+header{
+    text-align: center;
+}
+
+header > h1{
+    font-size: 3em;
+    color: var(--cor1);
+}
+
+main{
+    width: 70%;
+    margin: auto;
+    background-color: var(--cor3);
+    border-radius: 10px;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.271);
+}
+
+main > h4{
+    color: var(--cor1);
+    margin: 30px 30px 15px 30px;
+    padding: 20px 20px 0px 20px;
+    text-align: center;
+}
+
+main > section{
+    display: flex;
+    flex-flow: column wrap;
+}
+
+main > section > p{
+    display: flex;
+    align-items: center;
+    height: 40px;
+    margin: 5px 30px;
+    color: var(--cor3);
+    background-color: var(--cor5);
+    border-radius: 5px;
+}
+
+main > section > p:hover{
+    background-color: var(--cor4);
+}
+
+main > section > p > input{
+    margin: 10px;
+}
+
+main > p#botao{
+    text-align: right;
+    padding-bottom: 6px;
+    padding-right: 20px;
+}
+
+main > p > input{
+    padding: 5px;
+    margin: 10px;
+    background-color: var(--cor1);
+    color: var(--cor3);
+    border-radius: 5px;
+    border: 1px solid var(--cor2);
+}
+
+main > p > input:hover{
+    cursor: pointer;
+    background-color: #606c38e7;
+}

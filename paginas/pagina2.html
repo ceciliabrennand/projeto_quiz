@@ -4,20 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="../estilos/style_perguntas.css">
 </head>
 <body>
     <header>
-        <h1>Quiz</h1>
+        <h1>Pergunta #1</h1>
     </header>
 
     <main>
         <h4>Qual é o meu jogo favorito?</h4>
-        <input type="radio" name="resposta" id="iresposta1"> Life is Strange <br>
-        <input type="radio" name="resposta" id="iresposta2"> Red Dead Redemption 2 <br>
-        <input type="radio" name="resposta" id="iresposta3"> Cyberpunk 2077 <br>
-        <input type="radio" name="resposta" id="iresposta4"> Expedition 33 <br> <br>
-        <input type="button" value="Enviar">
+        <section id="perguntas">
+            <p>
+                <input type="radio" name="resposta" id="iresposta1"> 
+                <label for="iresposta1">Life is Strange</label>
+            </p> 
+            <p>
+                <input type="radio" name="resposta" id="iresposta2"> <label for="iresposta2">Red Dead Redemption 2</label>
+            </p> 
+            <p>
+                <input type="radio" name="resposta" id="iresposta3"> <label for="iresposta3">Cyberpunk 2077</label>
+            </p> 
+            <p>
+                <input type="radio" name="resposta" id="iresposta4"> <label for="iresposta4">Expedition 33</label>
+            </p> 
+        </section>
+        <p id="botao"><input type="button" value="Próxima"></p>
     </main>
+
+    <script src="../scripts/pagina2.js"></script>
 </body>
 </html>
