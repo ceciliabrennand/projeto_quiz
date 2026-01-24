@@ -60,6 +60,12 @@ main > section > p:hover{
     background-color: var(--cor4);
 }
 
+main > section > p > label{
+    display: block;
+    width: 100%;
+    cursor: pointer;
+}
+
 main > section > p > input{
     margin: 10px;
 }
