@@ -70,22 +70,26 @@ main > section > p > input{
     margin: 10px;
 }
 
-main > a > p#botao{
+main > div#area-botao{
     text-align: right;
-    padding-bottom: 6px;
-    padding-right: 20px;
 }
 
-main > a > p#botao > input{
-    padding: 5px;
-    margin: 10px;
+main > div#area-botao > a#botao {
+    display: inline-block;      
+    padding: 5px 10px;
+    margin: 10px 30px 15px 0;
+
+    font-size: 13px;
     background-color: var(--cor1);
     color: var(--cor3);
     border-radius: 5px;
     border: 1px solid var(--cor2);
+
+    text-decoration: none;
+    text-align: center;
 }
 
-main > a > p#botao > input:hover{
+main > div#area-botao > a#botao:hover {
     cursor: pointer;
     background-color: #606c38e7;
 }
