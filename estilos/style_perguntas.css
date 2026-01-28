@@ -70,13 +70,13 @@ main > section > p > input{
     margin: 10px;
 }
 
-main > p#botao{
+main > a > p#botao{
     text-align: right;
     padding-bottom: 6px;
     padding-right: 20px;
 }
 
-main > p > input{
+main > a > p#botao > input{
     padding: 5px;
     margin: 10px;
     background-color: var(--cor1);
@@ -85,7 +85,7 @@ main > p > input{
     border: 1px solid var(--cor2);
 }
 
-main > p > input:hover{
+main > a > p#botao > input:hover{
     cursor: pointer;
     background-color: #606c38e7;
 }
