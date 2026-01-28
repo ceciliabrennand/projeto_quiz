@@ -43,7 +43,24 @@ main > p > span{
     text-decoration: underline;
 }
 
-main > p#resultado{
-    padding-bottom: 20px;
+main > p#botao{
+    padding: 20px;
+    text-align: right;
+}
+
+main > p#botao > a{
+    color: black;
+}
+
+main > p#botao > a:hover{
     font-weight: bold;
+    font-style: italic;
+}
+
+main > p#resultado{
+    font-weight: bold;
+}
+
+main > p#frasefinal{
+    padding-bottom: 20px;
 }
