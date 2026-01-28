@@ -44,6 +44,13 @@ function escolha3() {
 }
 
 function escolha4() {
+
+    function respostaCorreta() {
+        let resultado = Number(localStorage.getItem('resultado'))
+        resultado += 1
+        localStorage.setItem('resultado', resultado)
+    }
+    
     if (respondeu == true) {
         return
     }

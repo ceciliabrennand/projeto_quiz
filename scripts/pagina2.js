@@ -1,6 +1,14 @@
+localStorage.setItem('resultado', 0)
+
 let respondeu = false //porque ninguém respondeu ainda
 
 function escolha1() {
+
+    function respostaCorreta() {
+        let resultado = Number(localStorage.getItem('resultado'))
+        resultado += 1
+        localStorage.setItem('resultado', resultado)
+    }
 
     if (respondeu == true) {
         return
@@ -11,6 +19,7 @@ function escolha1() {
     let resposta1 = document.getElementById('r1')
 
     resposta1.style.background = 'green'
+
 }
 
 function escolha2() {

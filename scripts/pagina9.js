@@ -8,9 +8,11 @@ function escolha1() {
 
     respondeu = true
 
+    let resposta4 = document.getElementById('r4')
     let resposta1 = document.getElementById('r1')
-
-    resposta1.style.background = 'green'
+    
+    resposta1.style.background = 'red'
+    resposta4.style.background = 'green'
 }
 
 function escolha2() {
@@ -20,10 +22,10 @@ function escolha2() {
 
     respondeu = true
 
-    let resposta1 = document.getElementById('r1')
+    let resposta4 = document.getElementById('r4')
     let resposta2 = document.getElementById('r2')
 
-    resposta1.style.background = 'green'
+    resposta4.style.background = 'green'
     resposta2.style.background = 'red'
 
 }
@@ -35,10 +37,10 @@ function escolha3() {
 
     respondeu = true
 
-    let resposta1 = document.getElementById('r1')
+    let resposta4 = document.getElementById('r4')
     let resposta3 = document.getElementById('r3')
 
-    resposta1.style.background = 'green'
+    resposta4.style.background = 'green'
     resposta3.style.background = 'red'
 }
 
@@ -49,9 +51,7 @@ function escolha4() {
 
     respondeu = true
 
-    let resposta1 = document.getElementById('r1')
     let resposta4 = document.getElementById('r4')
 
-    resposta1.style.background = 'green'
-    resposta4.style.background = 'red'
+    resposta4.style.background = 'green'
 }
