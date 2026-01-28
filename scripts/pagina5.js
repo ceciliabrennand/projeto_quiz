@@ -17,17 +17,15 @@ function escolha1() {
 
 function escolha2() {
 
-    function respostaCorreta() {
-        let resultado = Number(localStorage.getItem('resultado'))
-        resultado += 1
-        localStorage.setItem('resultado', resultado)
-    }
-    
     if (respondeu == true) {
         return
     }
 
     respondeu = true
+
+    let resultado = Number(localStorage.getItem('resultado'))
+    resultado += 1
+    localStorage.setItem('resultado', resultado)
 
     let resposta2 = document.getElementById('r2')
 

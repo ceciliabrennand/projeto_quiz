@@ -8,6 +8,10 @@ function escolha1() {
 
     respondeu = true
 
+    let resultado = Number(localStorage.getItem('resultado'))
+    resultado += 1
+    localStorage.setItem('resultado', resultado)
+
     let resposta1 = document.getElementById('r1')
 
     resposta1.style.background = 'green'

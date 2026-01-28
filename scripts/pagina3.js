@@ -44,18 +44,16 @@ function escolha3() {
 }
 
 function escolha4() {
-
-    function respostaCorreta() {
-        let resultado = Number(localStorage.getItem('resultado'))
-        resultado += 1
-        localStorage.setItem('resultado', resultado)
-    }
     
     if (respondeu == true) {
         return
     }
 
     respondeu = true
+
+    let resultado = Number(localStorage.getItem('resultado'))
+    resultado += 1
+    localStorage.setItem('resultado', resultado)
 
     let resposta1 = document.getElementById('r1')
     let resposta4 = document.getElementById('r4')

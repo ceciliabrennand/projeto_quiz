@@ -31,11 +31,16 @@ function escolha2() {
 }
 
 function escolha3() {
+
     if (respondeu == true) {
         return
     }
 
     respondeu = true
+
+    let resultado = Number(localStorage.getItem('resultado'))
+    resultado += 1
+    localStorage.setItem('resultado', resultado)
 
     let resposta3 = document.getElementById('r3')
 
