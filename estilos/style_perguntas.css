@@ -93,3 +93,9 @@ main > div#area-botao > a#botao:hover {
     cursor: pointer;
     background-color: #606c38e7;
 }
+
+@media screen and (min-width: 1200px) {
+    main{
+        width: 50%;
+    }
+}
