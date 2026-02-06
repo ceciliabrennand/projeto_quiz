@@ -1,5 +1,7 @@
 let respondeu = false //porque ninguém respondeu ainda
 
+let botao = document.getElementById('area-botao')
+
 function escolha1() {
 
     if (respondeu == true) {
@@ -15,6 +17,7 @@ function escolha1() {
     let resposta1 = document.getElementById('r1')
 
     resposta1.style.background = 'green'
+    botao.style.display = 'block'
 }
 
 function escolha2() {
@@ -29,6 +32,7 @@ function escolha2() {
 
     resposta1.style.background = 'green'
     resposta2.style.background = 'red'
+    botao.style.display = 'block'
 
 }
 
@@ -44,6 +48,7 @@ function escolha3() {
 
     resposta1.style.background = 'green'
     resposta3.style.background = 'red'
+    botao.style.display = 'block'
 }
 
 function escolha4() {
@@ -58,4 +63,5 @@ function escolha4() {
 
     resposta1.style.background = 'green'
     resposta4.style.background = 'red'
+    botao.style.display = 'block'
 }
